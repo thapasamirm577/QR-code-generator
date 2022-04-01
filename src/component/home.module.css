@@ -1,0 +1,93 @@
+.home_main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+}
+.home_section{
+    background-color: #f1f1f1;
+    padding: 2rem 2rem;
+    color: black;
+    font-size: 1.5rem;
+    width: 50rem;
+    max-width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.4);
+}
+.home_header{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.home_qr_body{
+    width: 35rem;
+    margin: auto;
+    max-width: 95%;
+}
+.indv_label{
+    margin-bottom: 0.5rem;
+}
+.indv_input > input{
+    height: 4rem;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.4);
+    outline: none;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+.indv_btn{
+    margin-top: 2rem;
+}
+.indv_btn > button{
+    height: 4rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: #1d3557;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.result_qr_container{
+    min-height: 25rem;
+    width: 35rem;
+    max-width: 90%;
+    margin: auto;
+}
+.result_qr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.result_qr > img{
+    height: 20rem;
+    width: 20rem;
+}
+.result_qr_header{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.indv_download_btn{
+    text-align: center;
+    margin-top: 1rem;
+}
+.indv_download_btn > button{
+    height: 3rem;
+    border: none;
+    outline: none;
+    width: 20rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #1d3557;
+    color: white;
+    cursor: pointer;
+}
+.loading_qr{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}

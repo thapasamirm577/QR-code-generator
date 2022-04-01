@@ -1,0 +1,38 @@
+.home_nav{
+    height: 8rem;
+    background-color: #1d3557;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo_name{
+    margin-bottom: 1.5rem;
+}
+.logo_name::before{
+    display: inline-block;
+    content: "";
+    width: 2rem;
+    height: 5rem;
+    margin-bottom: -2rem;
+    border-left: 0.4rem solid #999;
+    border-top: 0.4rem solid #999;
+    border-bottom: 0.4rem solid #999;
+}
+.logo_name::after{
+    display: inline-block;
+    content: "";
+    width: 2rem;
+    height: 5rem;
+    margin-bottom: -2rem;
+    border-right: 0.4rem solid #999;
+    border-top: 0.4rem solid #999;
+    border-bottom: 0.4rem solid #999;
+}
+@media screen and (max-width: 310px) {
+    .logo_name::after,
+    .logo_name::before{
+        display: none;
+    }
+}
